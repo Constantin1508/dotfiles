@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = export GITHUB_USERNAME=`gh api user | jq -r '.login'`
+	name = Constantin Lahrs
