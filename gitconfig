@@ -50,5 +50,5 @@
 [pull]
   rebase = false
 [user]
-	email = export GITHUB_USERNAME=`gh api user | jq -r '.login'`
+	email = constantinlahrs@gmail.com
 	name = Constantin Lahrs
